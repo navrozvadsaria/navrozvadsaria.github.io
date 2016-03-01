@@ -49,7 +49,56 @@
 	
 	/****************************/ 
 
+	.header{
+		margin: 0 auto;
+		text-align: center;
+		font-size: 4em;
+		font-family: 'Metrophobic', Arial, serif; font-weight: 400;
+		padding-top: 1em; 
+		width:100%;
+		height:100px;
+ 		background-color:#f07911;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f07911, endColorstr=#f2f4f5);
+ 	background-image:-moz-linear-gradient(top, #f07911 0%, #f2f4f5 25%,#36db30 100%);
+	background-image:linear-gradient(top, #f07911 0%, #f2f4f5 25%,#36db30 100%);
+	background-image:-webkit-linear-gradient(top, #f07911 0%, #f2f4f5 25%,#36db30 100%);
+	background-image:-o-linear-gradient(top, #f07911 0%, #f2f4f5 25%,#36db30 100%);
+	background-image:-ms-linear-gradient(top, #f07911 0%, #f2f4f5 25%,#36db30 100%);
+ 	background-image:-webkit-gradient(linear, right top, right bottom, color-stop(0%,#f07911), color-stop(25%,#f2f4f5),color-stop(100%,#36db30));}
+
+	
+	
 	.body-wrapper {
 		flex-direction: column;
+		padding: 3em;
+		max-width: 50em;
+		margin:0 auto;
+		flex: 1 100%;
+		flex-flow: column wrap;
+		
 	}
 
+	img{
+		max-width: 100%;
+		size:50%;
+		border-radius: 1em;
+		border: 4px solid blue;
+		box-sizing: content-box;
+	}
+
+	h2{
+		font-size:3em;
+		margin-top: 2em;
+		text-align: center;
+	}
+
+	p{
+		margin-bottom: 4em;
+		font-size:1.5em;
+		padding: 1em;
+		font-family: 'Metrophobic', Arial, serif; font-weight: 300;
+	}
+
+	body{
+		background:#6DBDD6; 
+	}
