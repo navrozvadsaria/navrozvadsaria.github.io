@@ -50,9 +50,9 @@
 	/****************************/ 
 
 	.header{
-		margin: 0 auto;
+		margin: -0.5 auto;
 		text-align: center;
-		font-size: 3.5em;
+		font-size: 3em;
 		font-family: 'Metrophobic', Arial, serif; font-weight: 400;
 		padding-top: 1em; 
 		width:100%;
@@ -87,7 +87,7 @@
 
 	figcaption{
 		display: block; 
-		font-size:3em;
+		font-size:1.5em;
 
 	}
 
@@ -95,7 +95,7 @@
 
 	p{
 		margin-bottom: 4em;
-		font-size:2em;
+		font-size:0.5em;
 		margin-top:1em;
 		font-family: 'Metrophobic', Arial, serif; font-weight: 300;
 	}
